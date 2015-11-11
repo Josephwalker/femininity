@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #PAGE
+\*------------------------------------*/
+
+html {
+    height: 100%;
+    
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+body {
+    min-height: 100%;    
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: $inuit-base-spacing-unit--small;
+}
+
+.header {
+    position: fixed;
+
+    width: 100%;
+
+    background-color: $inuit-base-background-color; 
+}
+
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    margin-top: $inuit-base-spacing-unit;
+}
+
+.quote {
+    background-color: $inuit-base-background-color;
+    border: 0;
+    width: 100%;
+    margin-bottom: $inuit-base-spacing-unit--small;
+
+    font-size: 72px;
+}
+
+.page-section {
+    height: 100vh;
+
+    padding-top: 100px;
+}

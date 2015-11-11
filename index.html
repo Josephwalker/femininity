@@ -10,39 +10,33 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="build/css/style.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <section>
-            <div>
-                <span>XXXX</span>
-
-                <nav>
-                    <ul>
-                        <li><button>Why it matters</button></li>
-                        <li><button>Contributions</button></li>
-                        <li><button>Contact</button></li>
-                    </ul>
-                </nav>
-
-            </div>
+        <div class="header">
+            <nav>
+                <ul class="list-inline">
+                    <li><a href="#section-home" class="btn">Home</a></li>
+                    <li><a href="#section-1" class="btn">Why it matters</a></li>
+                    <li><a href="#section-2" class="btn">Contributions</a></li>
+                    <li><a href="#section-3" class="btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="page-section" id="section-home">
            
             <form>
                 <label for="quote">Fem·in·in·i·ty</label>
-                <input type="text" name="quote" id="quote" placeholder="She celebrates her femininity by wearing make-up and high heels.">
+                <input type="text" name="quote" id="quote" placeholder="She celebrates her femininity by wearing make-up and high heels." class="quote">
 
-                <input name="sumbit" type="submit" value="Submit">
+                <input name="sumbit" type="submit" value="Submit" class="btn">
             </form>
 
             <p>This is the example the Oxford English Dictionary uses to describe the word ‘femininity’. We think with your help it could be better. Click on the sentence to update it and submit your example.</p>
         </section>
 
-        <section>
+        <section class="page-section" id="section-1">
             <p>So, does it matter what the Oxford English Dictionary has to say about femininity?</p>
             <p>The short answer is: yes, yes it does.</p>
             <p>Dictionaries exist not just to provide definitions of obscure words like ______ or _______, but also to re ect the current usage and connotations of every day language. When the Oxford English Dictionary o ers ‘she celebrates her femininity by wearing make-up and high heels’ as an example of how to use the word ‘femininity,’ it shapes our expectations of what femininity looks like.</p>
@@ -51,7 +45,7 @@
             So over to you. We want to know what the word femininity means to you. What do you think femininity looks like — or should, or could look like? Sumbit your example sentance above or tweet us using the hashtag xxx</p>
         </section>
 
-        <section>
+        <section class="page-section" id="section-2">
             <blockquote>
                 <p>She celebrates her femininity by wearing make-up and high heels.</p>
                 <footer>
@@ -96,7 +90,7 @@
         </section>
 
 
-        <section>
+        <section class="page-section" id="section-3">
             <p>This project has been created in association with The Girlhood.</p>
             <p>The Girlhood’s creative learning programmes and content empowers girls (11-24), from diverse backgrounds, to create their own culture, rather than be defined by a limiting culture that already exists. Visit The Girlhood website to find out more about their work.</p>
             <p>The Girlhood is always looking for individuals, agencies, studios and brands to help support our work. If you’d like to get involved, please get in touch.
