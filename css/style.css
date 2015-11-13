@@ -502,7 +502,7 @@ html {
 \*------------------------------------*/
 html {
   height: 100%;
-  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Karla', sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -535,12 +535,22 @@ form {
   border: 0;
   width: 100%;
   margin-bottom: 12px;
-  font-size: 72px;
+  font-size: 28px;
 }
 
 .page-section {
-  height: 100vh;
+  margin: 0 auto;
+  max-width: 1008px;
   padding-top: 100px;
+  padding-right: 24px;
+  padding-bottom: 200px;
+  padding-left: 24px;
+}
+
+p {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
 
 /*------------------------------------*\

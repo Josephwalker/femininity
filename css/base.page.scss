@@ -5,7 +5,7 @@
 html {
     height: 100%;
     
-    font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Karla', sans-serif; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,11 +43,23 @@ form {
     width: 100%;
     margin-bottom: $inuit-base-spacing-unit--small;
 
-    font-size: 72px;
+    font-size: 28px;
 }
 
 .page-section {
-    height: 100vh;
+    margin: 0 auto;
+
+    max-width: 1008px;
 
     padding-top: 100px;
+    padding-right: $inuit-base-spacing-unit;
+    padding-bottom: 200px;
+    padding-left: $inuit-base-spacing-unit;
+}
+
+
+p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: $inuit-base-spacing-unit--small;
 }
