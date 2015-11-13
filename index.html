@@ -11,7 +11,6 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="build/css/style.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Karla:700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="header">
@@ -111,10 +110,23 @@
             <p>*Please note: by submitting your contribution to this website you give permission for ‘Lead by example’ and ‘The Girlhood’ organisations to publish your content. © 2015 Lead by example. All rights reserved.</p>
         </section>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+     
+
+
+        <script type="text/javascript">
+            WebFontConfig = {
+                google: { families: [ 'Karla:700:latin' ] }
+                };
+                (function() {
+                var wf = document.createElement('script');
+                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+                wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })(); 
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
