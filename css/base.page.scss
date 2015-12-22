@@ -29,6 +29,19 @@ body {
     background-color: $inuit-base-background-color; 
 }
 
+.highlight:hover {
+    color: rgb(255, 0, 255);
+    cursor: pointer;
+}
+
+.play {
+    display: inline-block;
+    vertical-align: middle;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
 
 form {
     max-width: 800px;

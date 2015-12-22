@@ -482,7 +482,7 @@ html {
   line-height: 1.5;
   /* [1] */
   background-color: #212121;
-  color: #d0d0d0;
+  color: #bfbfbf;
   overflow-y: scroll;
   /* [2] */
   min-height: 100%;
@@ -522,6 +522,19 @@ body {
   position: fixed;
   width: 100%;
   background-color: #212121;
+}
+
+.highlight:hover {
+  color: magenta;
+  cursor: pointer;
+}
+
+.play {
+  display: inline-block;
+  vertical-align: middle;
+}
+.play:hover {
+  cursor: pointer;
 }
 
 form {
@@ -675,7 +688,7 @@ img[height] {
 .btn, .btn:hover, .btn:active, .btn:focus {
   text-decoration: none;
   /* [4] */
-  color: #d0d0d0;
+  color: #bfbfbf;
 }
 
 /**
