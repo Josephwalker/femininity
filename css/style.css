@@ -526,7 +526,6 @@ body {
 
 .highlight:hover {
   color: magenta;
-  cursor: pointer;
 }
 
 .play {
@@ -550,6 +549,9 @@ form {
   margin-bottom: 12px;
   font-size: 28px;
 }
+.quote:focus {
+  outline: 0;
+}
 
 .page-section {
   margin: 0 auto;
@@ -558,6 +560,10 @@ form {
   padding-right: 24px;
   padding-bottom: 200px;
   padding-left: 24px;
+}
+
+a {
+  color: #bfbfbf;
 }
 
 p {

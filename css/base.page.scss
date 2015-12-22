@@ -31,7 +31,6 @@ body {
 
 .highlight:hover {
     color: rgb(255, 0, 255);
-    cursor: pointer;
 }
 
 .play {
@@ -57,6 +56,10 @@ form {
     margin-bottom: $inuit-base-spacing-unit--small;
 
     font-size: 28px;
+
+    &:focus {
+        outline: 0;
+    }
 }
 
 .page-section {
@@ -68,6 +71,10 @@ form {
     padding-right: $inuit-base-spacing-unit;
     padding-bottom: 200px;
     padding-left: $inuit-base-spacing-unit;
+}
+
+a {
+    color: $inuit-base-text-color;
 }
 
 
