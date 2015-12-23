@@ -12,3 +12,19 @@ $(function() {
     }
   });
 });
+
+
+$(function() {   
+    $('.nav__button').on('click', function(e) {
+      $('.nav').toggleClass("nav--active");
+      e.preventDefault();
+    });
+});
+
+
+$(function() {   
+    $('.nav__item').on('click', function(e) {
+      $('.nav').toggleClass("nav--active");
+      e.preventDefault();
+    });
+});
