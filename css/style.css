@@ -555,10 +555,15 @@ form {
 .page-section {
   margin: 0 auto;
   max-width: 1008px;
-  padding-top: 100px;
+  padding-top: 55px;
   padding-right: 24px;
   padding-bottom: 50vh;
   padding-left: 24px;
+}
+@media screen and (min-width: 480px) {
+  .page-section {
+    padding-top: 100px;
+  }
 }
 
 a {

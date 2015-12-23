@@ -65,7 +65,12 @@ form {
 
     max-width: 1008px;
 
-    padding-top: 100px;
+    padding-top: 55px;
+
+    @media screen and (min-width: 480px) {
+        padding-top: 100px;
+    }
+
     padding-right: $inuit-base-spacing-unit;
     padding-bottom: 50vh;
     padding-left: $inuit-base-spacing-unit;
