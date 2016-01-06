@@ -1,11 +1,16 @@
 /*------------------------------------*\
     #PAGE
 \*------------------------------------*/
+@font-face {
+    font-family: "grot-12";
+    src: url("fonts/Grot12-MediumWEB.woff") format('woff');
+}
 
 html {
     height: 100%;
     
-    font-family: 'Karla', sans-serif; 
+    font-family: 'grot-12', sans-serif; 
+    font-weight: 600;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -67,7 +72,7 @@ form {
 
     padding-top: 55px;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 600px) {
         padding-top: 100px;
     }
 
@@ -82,7 +87,10 @@ a {
 
 
 p {
-    font-size: 24px;
+    font-size: 18px;
+    @media screen and (min-width: 600px) {
+        font-size: 24px;
+    }
     font-weight: bold;
     margin-bottom: $inuit-base-spacing-unit--small;
 }

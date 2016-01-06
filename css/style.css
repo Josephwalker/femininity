@@ -500,9 +500,14 @@ html {
 /*------------------------------------*\
     #PAGE
 \*------------------------------------*/
+@font-face {
+  font-family: "grot-12";
+  src: url("fonts/Grot12-MediumWEB.woff") format("woff");
+}
 html {
   height: 100%;
-  font-family: 'Karla', sans-serif;
+  font-family: 'grot-12', sans-serif;
+  font-weight: 600;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -560,7 +565,7 @@ form {
   padding-bottom: 50vh;
   padding-left: 24px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .page-section {
     padding-top: 100px;
   }
@@ -571,9 +576,14 @@ a {
 }
 
 p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 12px;
+}
+@media screen and (min-width: 600px) {
+  p {
+    font-size: 24px;
+  }
 }
 
 /*------------------------------------*\
@@ -780,11 +790,10 @@ img[height] {
 \*------------------------------------*/
 .nav {
   display: none;
-  height: 100vh;
   width: 100vw;
   background-color: #212121;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .nav {
     display: block;
     height: 48px;
@@ -799,13 +808,11 @@ img[height] {
 
 .nav__button {
   display: block;
-  padding-top: 12px;
-  padding-right: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
+  padding-top: 24px;
+  padding-left: 24px;
   background-color: #212121;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .nav__button {
     display: none;
   }
@@ -814,7 +821,7 @@ img[height] {
   cursor: pointer;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .nav__list-item {
     display: inline-block;
   }
@@ -829,11 +836,12 @@ img[height] {
   padding-top: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
-  padding-left: 12px;
+  padding-left: 24px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .nav__item {
     display: inline-block;
+    padding-left: 12px;
   }
 }
 .nav__item:hover {

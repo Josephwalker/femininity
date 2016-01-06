@@ -5,11 +5,10 @@
 .nav {
 	display: none;
 
-	height: 100vh;
 	width: 100vw;
 	background-color: $inuit-base-background-color; 
 
-	@media screen and (min-width: 480px) {
+	@media screen and (min-width: 600px) {
 		display: block;
 
 	    height: 48px;
@@ -26,14 +25,12 @@
 .nav__button {
 	display: block;
 
-	@media screen and (min-width: 480px) {
+	@media screen and (min-width: 600px) {
 		display: none;
 	}
 
-	padding-top: $inuit-base-spacing-unit--small;
-	padding-right: $inuit-base-spacing-unit--small;
-	padding-bottom: $inuit-base-spacing-unit--small;
-	padding-left: $inuit-base-spacing-unit--small;
+	padding-top: $inuit-base-spacing-unit;
+	padding-left: $inuit-base-spacing-unit;
 
 	&:hover {
 		cursor: pointer;
@@ -43,7 +40,7 @@
 }
 
 .nav__list-item { 
-	@media screen and (min-width: 480px) {
+	@media screen and (min-width: 600px) {
 		display: inline-block;
 
 		&:first-of-type {
@@ -54,15 +51,17 @@
 
 .nav__item {
 	display: block;
-	@media screen and (min-width: 480px) {
+	@media screen and (min-width: 600px) {
 		display: inline-block;
+
+		padding-left: $inuit-base-spacing-unit--small;
 	}
 
 	text-decoration: none;
 	padding-top: $inuit-base-spacing-unit--small;
 	padding-right: $inuit-base-spacing-unit--small;
 	padding-bottom: $inuit-base-spacing-unit--small;
-	padding-left: $inuit-base-spacing-unit--small;
+	padding-left: $inuit-base-spacing-unit;
 
 	&:hover {
 		text-decoration: underline;
