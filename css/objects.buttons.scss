@@ -8,16 +8,22 @@
 	padding: 0;
 	margin: 0;
 
+    padding: halve($inuit-base-spacing-unit) $inuit-base-spacing-unit;
+
 	font-size: 24px;
 
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
 
-    text-decoration: underline;
+    text-decoration: none;
+
+    background-color: #333333;
 
     &:hover {
-    	text-decoration: underline;
+    	background-color: rgb(255, 0, 255);
+
+        color: $inuit-base-background-color;
     }
 }
 
