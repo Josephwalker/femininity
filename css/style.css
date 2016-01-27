@@ -534,16 +534,20 @@ body {
 
 .play {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 .play:hover {
   cursor: pointer;
 }
 
 form {
-  max-width: 800px;
   margin: 0 auto;
   margin-top: 24px;
+}
+@media screen and (min-width: 600px) {
+  form {
+    margin-right: 200px;
+  }
 }
 
 .quote {
@@ -606,6 +610,12 @@ form {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .page-section--text {
+    padding-right: 275px;
+  }
+}
+
 a {
   color: #bfbfbf;
 }
@@ -617,8 +627,12 @@ p {
 }
 @media screen and (min-width: 600px) {
   p {
-    font-size: 24px;
+    font-size: 26px;
   }
+}
+
+cite {
+  font-style: normal;
 }
 
 /*------------------------------------*\
@@ -630,9 +644,9 @@ p {
  */
 h1,
 .alpha {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 1.33333;
+  font-size: 90px;
+  font-size: 5.625rem;
+  line-height: 1.06667;
 }
 
 h2,
@@ -665,9 +679,9 @@ h5,
 
 h6,
 .zeta {
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.71429;
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 2;
 }
 
 /*------------------------------------*\

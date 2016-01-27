@@ -38,7 +38,7 @@ body {
 
 .play {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 
     &:hover {
         cursor: pointer;
@@ -46,10 +46,13 @@ body {
 }
 
 form {
-    max-width: 800px;
     margin: 0 auto;
     
     margin-top: $inuit-base-spacing-unit;
+
+    @media screen and (min-width: 600px) {
+        margin-right: 200px;
+    }
 }
 
 .quote {
@@ -116,20 +119,30 @@ form {
     }
 
     padding-right: $inuit-base-spacing-unit;
+
     padding-bottom: 50vh;
     padding-left: $inuit-base-spacing-unit;
+}
+
+.page-section--text {
+    @media screen and (min-width: 600px) {
+        padding-right: 275px;
+    }
 }
 
 a {
     color: $inuit-base-text-color;
 }
 
-
 p {
     font-size: 18px;
     @media screen and (min-width: 600px) {
-        font-size: 24px;
+        font-size: 26px;
     }
     font-weight: bold;
     margin-bottom: $inuit-base-spacing-unit--small;
+}
+
+cite {
+    font-style: normal;
 }
