@@ -67,7 +67,11 @@ form {
     border: 1px solid #3d3d3d;
     background-color: $inuit-base-background-color;
     
-    font-size: 28px;
+    font-size: 20px;
+
+    @media screen and (min-width: 600px) {
+        font-size: 28px;
+    }
 
     &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
         color:    #3d3d3d;
@@ -132,6 +136,13 @@ form {
 
 a {
     color: $inuit-base-text-color;
+}
+
+.heading {
+    font-size: 40px;
+    @media screen and (min-width: 750px) {
+        font-size: 90px;
+    }
 }
 
 p {
