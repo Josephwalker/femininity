@@ -31,9 +31,13 @@ body {
     width: 100%;
 }
 
-.highlight:hover {
-    color: rgb(255, 0, 255);
-}
+.highlight {
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(255, 0, 255);
+    }
+}    
 
 .play {
     display: inline-block;
@@ -115,7 +119,7 @@ form {
 
     max-width: 1008px;
 
-    padding-top: 55px;
+    padding-top: 65px;
 
     @media screen and (min-width: 600px) {
         padding-top: 100px;
@@ -135,6 +139,10 @@ form {
 
 a {
     color: $inuit-base-text-color;
+
+    &:hover {
+        color: rgb(255, 0, 255);
+    }
 }
 
 .heading {

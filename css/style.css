@@ -527,6 +527,9 @@ body {
   width: 100%;
 }
 
+.highlight {
+  text-decoration: none;
+}
 .highlight:hover {
   color: magenta;
 }
@@ -603,7 +606,7 @@ form {
 .page-section {
   margin: 0 auto;
   max-width: 1008px;
-  padding-top: 55px;
+  padding-top: 65px;
   padding-right: 24px;
   padding-bottom: 50vh;
   padding-left: 24px;
@@ -622,6 +625,9 @@ form {
 
 a {
   color: #bfbfbf;
+}
+a:hover {
+  color: magenta;
 }
 
 .heading {
