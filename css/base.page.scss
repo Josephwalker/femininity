@@ -146,10 +146,14 @@ a {
 
 p {
     font-size: 18px;
+    line-height: 25px;
+
     @media screen and (min-width: 600px) {
         font-size: 26px;
+        line-height: 36px;
     }
-    margin-bottom: $inuit-base-spacing-unit--small;
+
+    margin-bottom: $inuit-base-spacing-unit;
 }
 
 cite {
