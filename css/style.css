@@ -620,8 +620,14 @@ form {
 }
 
 @media screen and (min-width: 600px) {
-  .page-section--text {
+  .page-section--home {
     padding-right: 150px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .page-section--text {
+    padding-right: 300px;
   }
 }
 

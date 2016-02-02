@@ -133,9 +133,15 @@ form {
     padding-left: $inuit-base-spacing-unit;
 }
 
-.page-section--text {
+.page-section--home {
     @media screen and (min-width: 600px) {
         padding-right: 150px;
+    }
+}
+
+.page-section--text {
+    @media screen and (min-width: 600px) {
+        padding-right: 300px;
     }
 }
 
