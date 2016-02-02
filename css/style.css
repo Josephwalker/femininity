@@ -560,14 +560,16 @@ form {
   padding: 24px;
   border: 1px solid #3d3d3d;
   background-color: #212121;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 24px;
   /* FF 4-18 */
   /* FF 19+ */
   /* IE 10+ */
 }
 @media screen and (min-width: 600px) {
   .quote {
-    font-size: 28px;
+    font-size: 22px;
+    line-height: 26px;
   }
 }
 .quote::-webkit-input-placeholder {
@@ -613,13 +615,13 @@ form {
 }
 @media screen and (min-width: 600px) {
   .page-section {
-    padding-top: 100px;
+    padding-top: 180px;
   }
 }
 
 @media screen and (min-width: 600px) {
   .page-section--text {
-    padding-right: 275px;
+    padding-right: 150px;
   }
 }
 
@@ -632,6 +634,7 @@ a:hover {
 
 .heading {
   font-size: 40px;
+  font-weight: 500;
 }
 @media screen and (min-width: 750px) {
   .heading {
@@ -641,24 +644,24 @@ a:hover {
 
 p {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24px;
   margin-bottom: 24px;
 }
 @media screen and (min-width: 600px) {
   p {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 30px;
+    line-height: 34px;
   }
 }
 
 .small p {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24px;
 }
 @media screen and (min-width: 600px) {
   .small p {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 26px;
   }
 }
 
@@ -973,6 +976,72 @@ img[height] {
 .mv {
   margin-top: 24px !important;
   margin-bottom: 24px !important;
+}
+
+/**
+ * Add small margins.
+ */
+.m- {
+  margin: 12px !important;
+}
+
+.mt- {
+  margin-top: 12px !important;
+}
+
+.mr- {
+  margin-right: 12px !important;
+}
+
+.mb- {
+  margin-bottom: 12px !important;
+}
+
+.ml- {
+  margin-left: 12px !important;
+}
+
+.mh- {
+  margin-right: 12px !important;
+  margin-left: 12px !important;
+}
+
+.mv- {
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+
+/**
+ * Add small paddings.
+ */
+.p- {
+  padding: 12px !important;
+}
+
+.pt- {
+  padding-top: 12px !important;
+}
+
+.pr- {
+  padding-right: 12px !important;
+}
+
+.pb- {
+  padding-bottom: 12px !important;
+}
+
+.pl- {
+  padding-left: 12px !important;
+}
+
+.ph- {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+}
+
+.pv- {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
 }
 
 /*------------------------------------*\
